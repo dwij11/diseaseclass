@@ -12,6 +12,13 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
+hide_github_icon="""
+        <style>
+        #GithubIcon {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 st.title('Streamlit Example')
 
 st.write("""
